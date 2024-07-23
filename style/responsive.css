@@ -1,0 +1,65 @@
+@media only screen and (max-width: 1205px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .container-character{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: relative;
+        top: 150px;
+
+    }
+
+.container{
+    border: 1px rgb(255, 255, 255) solid;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+    .modal-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+
+    .box-search{
+        width: 80%;
+    }
+
+    .episodes-container{
+        position: relative;
+        top: 300px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 685px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-search{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .found{
+        display: none;
+    }
+
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Characters</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+</head>
+<body>
+    <div class="box-search">
+        <h1 class="found">Logo</h1>
+        <input type="text" id="search" placeholder="Search characters..." />
+        <p class="found">found 20 character</p>
+    </div>
+    <br>
+
+    <div class="container-character">
+        <div class="container">
+            <div id="character-list" class="character-list"></div>
+        </div>
+
+        <div class="modal-content" id="character-modal">
+            <span class="close-button">&times;</span>
+<div class="box-status">
+    <img id="modal-character-image" src="your-image-url-here" alt="Character Image"/>
+    <div class="ui">
+        <h2 id="modal-character-name">نام کاراکتر</h2>
+    <p id="modal-character-status">وضعیت: Alive</p>
+    <p id="modal-character-species">گونه: Human</p>
+    <p id="modal-character-gender">جنسیت: Male</p>
+    </div>
+</div>
+
+        </div>
+
+    </div>
+    <br><br><br>
+    
+    <div class="episodes-container">
+        <div id="episodes-list"></div>
+    </div>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
